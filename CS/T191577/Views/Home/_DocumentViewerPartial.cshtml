@@ -1,0 +1,19 @@
+﻿@model XtraReport
+@Html.DevExpress().DocumentViewer(settings => {
+    settings.Name = "documentViewer";
+    
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "DocumentViewerPartial" };
+    settings.ExportRouteValues = new { Controller = "Home", Action = "DocumentViewerExport" };
+    
+    settings.Report = Model;
+
+    settings.CacheReportDocument = (sender, e) => {
+        e.Key = Guid.NewGuid().ToString();
+        Session[e.Key] = e.SaveDocumentToMemoryStream();
+    };
+    settings.RestoreReportDocumentFromCache = (sender, e) => {
+        Stream stream = Session[e.Key] as Stream;
+        if (stream != null)
+            e.RestoreDocumentFromStream(stream);
+    };
+}).GetHtml()
