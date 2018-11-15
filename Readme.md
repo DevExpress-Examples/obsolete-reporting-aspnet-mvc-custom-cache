@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/T191577/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/T191577/Controllers/HomeController.vb))
+* [Category.cs](./CS/T191577/Models/Category.cs) (VB: [Category.vb](./VB/T191577/Models/Category.vb))
+* [CategoriesReport.cs](./CS/T191577/Reports/CategoriesReport.cs) (VB: [CategoriesReport.vb](./VB/T191577/Reports/CategoriesReport.vb))
+* **[_DocumentViewerPartial.cshtml](./CS/T191577/Views/Home/_DocumentViewerPartial.cshtml)**
+<!-- default file list end -->
 # How to use the built-in caching functionality of the ASP.NET MVC Document Viewer
 
 
