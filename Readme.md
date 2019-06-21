@@ -7,6 +7,9 @@
 * **[_DocumentViewerPartial.cshtml](./CS/T191577/Views/Home/_DocumentViewerPartial.cshtml)**
 <!-- default file list end -->
 # How to use the built-in caching functionality of the ASP.NET MVC Document Viewer
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t191577)**
+<!-- run online end -->
 
 
 <p>This example illustrates how to make the <a href="http://documentation.devexpress.com/#XtraReports/CustomDocument5193">DocumentViewer</a> store its document on the client between postbacks.<br><br>When the Document Viewer extension performs a callback to the server (for example, when a page is changed), the report document is restored from the cache. So, it is not necessary to recreate a report document and data is not retrieved from the database. The Document Viewer manages a cached document by using the <a href="http://documentation.devexpress.com/#XtraReports/DevExpressXtraReportsWebASPxDocumentViewer_CacheReportDocumenttopic">CacheReportDocument</a> and <a href="http://documentation.devexpress.com/#XtraReports/DevExpressXtraReportsWebASPxDocumentViewer_RestoreReportDocumentFromCachetopic">RestoreReportDocumentFromCache</a> delegates.</p>
