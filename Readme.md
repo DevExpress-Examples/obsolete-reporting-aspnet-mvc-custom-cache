@@ -8,7 +8,7 @@
 <!-- default file list end -->
 # How to use the built-in caching functionality of the ASP.NET MVC Document Viewer
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/t191577)**
+**[[Run Online]](https://codecentral.devexpress.com/t191577/)**
 <!-- run online end -->
 
 
